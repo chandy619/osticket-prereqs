@@ -82,9 +82,9 @@ Open IIS as Admin and Register PHP- Open IIS by clicking on the Start menu. Sear
 <br />
 
 <p>
-<img width="557" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/8450d17a-2f37-4138-8cce-f3818f9caf14"> 
+<img width="419" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/2c1f0c04-799a-4fe3-aecc-d09d3d82a9f5">
 </p>
 <p>
-Install osTicket- 
+Dowload and Install osTicket- The next step will be to download and install osTIcket from the list of Installation Files. 
 </p>
 <br />
