@@ -19,7 +19,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Internet Information Services (IIS)
 - PHP Manager for IIS
-- URL Rewrite Module
+- IIS URL Rewrite Module
 - VC Redistributable
 - HeidiSQL
 - MySQL
@@ -64,9 +64,27 @@ Download and Install VC Redistributable- Download and install VC Redist from the
 <br />
 
 <p>
-<img width="456" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/6fb343f7-cfe7-46d4-9eed-73c4841bbb10">
+<img width="368" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/6fb343f7-cfe7-46d4-9eed-73c4841bbb10">
+<img width="380" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/19350341-6328-42be-849e-bd574ff1bc61">
 </p>
 <p>
 Download and Install MySQL- From the Installations Files list, download and install the MySQL Server software. This software is important fore creating a database to store files and information for osTicket. While moving throught the installation setup, select the 'Typcal' option. After that, you'll need to create some credentials that will be needed later on. Be sure to select the 'Standard Configuration' option. Take note of the username and password you've used in case you forget. Click 'Finish' to close out the prompt.
+</p>
+<br />
+
+<p>
+<img width="557" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/8450d17a-2f37-4138-8cce-f3818f9caf14"> 
+<img width="413" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/ac1d6902-abdf-4d1d-9870-13d62ab9b48c">
+</p>
+<p>
+Open IIS as Admin and Register PHP- Open IIS by clicking on the Start menu. Search 'IIS', right-click to open as Administrator. Once it open, double-click the icon labeled 'PHP Manager'. Slect the option to 'Register new PHP version' and click on the box with 3 dots in it in order to browse the C-drive to select the file named 'php-cgi'. Before leaving IIS, be sure to click the 'Restart' button located in the top right corner of the window. 
+</p>
+<br />
+
+<p>
+<img width="557" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/8450d17a-2f37-4138-8cce-f3818f9caf14"> 
+</p>
+<p>
+Install osTicket- 
 </p>
 <br />
