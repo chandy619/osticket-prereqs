@@ -98,11 +98,26 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img width="557" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/bbb813c7-5458-48c5-9ce4-feb0e8bfd099">
 </p>
+<p>
 Notice that some extensions are not enabled so return to IIS. Click on the 'osTicket' folder located on the left-hand side and double-click on PHP Manager. Click on 'Enable or disable an extension'. You'll find a list of PHP Extension. Click on each of the following:'php_imap.dll', 'php_intl.dll', and 'php_opache.dll'. and click 'Enable' in the top right corner. Lastly, return to the browser page of the osTicket Installer and refresh the page.
+</p>
 <br />
 
 <p>
-<img width="557" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/bbb813c7-5458-48c5-9ce4-feb0e8bfd099">
+<img width="552" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/1ce6cbe6-9228-4616-b992-67f556fd5833">
 </p>
-9. 
+10. Rename and Update Permissions- Next, return to the 'File Explorer' window that holds the 'osTicket' folder. Open the folder and locate the folder named 'include'. Find the file named 'ost-sampleconfig.php' and rename it to 'ost-config.php'. Right-click the file to update its permissions. Follow the next string of steps: 'Security' tab > 'Advanced' button > 'Disable inheritance' button > 'Remove all inherited permission from this object' selection. Next string of steps: 'Add' button > 'Select a principal' button > type in 'Everyone' > 'Check names' button > 'OK' button > check 'Full control' box > 'OK' and 'Apply' changes.
+</p>
 <br />
+
+<p>
+<img width="354" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/85eb14e4-b6d1-4e05-9dc8-7ec742f4bdc3">
+<img width="295" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/90ca8497-c241-4ed1-a23c-56519006e871">
+</p>
+10. Continue Setting up osTicket in Browser- Return to the osTicket Installer web browser and click 'Continue'. Fill out the necessary fields, i.e., Helpdesk Name, Default Email and Admin User information. (Remember to keep track of the username and password information for the next tutorial). For the remaining portion (Database Settings), you'll need to download and install the HiediSQL from the Installation Files.
+</p>
+
+<p>
+
+</p>
+11. Download and Install HeidiSQL- download and install the HeidiSQL from the Installation Files.
