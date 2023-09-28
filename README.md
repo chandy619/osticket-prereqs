@@ -112,12 +112,13 @@ Notice that some extensions are not enabled so return to IIS. Click on the 'osTi
 
 <p>
 <img width="354" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/85eb14e4-b6d1-4e05-9dc8-7ec742f4bdc3">
-<img width="295" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/90ca8497-c241-4ed1-a23c-56519006e871">
+<img width="273" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/90ca8497-c241-4ed1-a23c-56519006e871">
 </p>
 10. Continue Setting up osTicket in Browser- Return to the osTicket Installer web browser and click 'Continue'. Fill out the necessary fields, i.e., Helpdesk Name, Default Email and Admin User information. (Remember to keep track of the username and password information for the next tutorial). For the remaining portion (Database Settings), you'll need to download and install the HiediSQL from the Installation Files.
 </p>
 
 <p>
-
+<img width="340" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/97fbcdde-773a-4da2-8f23-357c810467e5">
+<img width="460" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/fb4aced7-bdfc-4984-9639-3fae51d6f414">
 </p>
-11. Download and Install HeidiSQL- download and install the HeidiSQL from the Installation Files.
+11. Download and Install HeidiSQL- Go back to the list of Installation Files to download and install the HeidiSQL. Once its installed, login by using the username and password you entered when installing MySQL Server. To begin creating a new database, right-click over 'Unnamed' on the left-side of the window. Name the database 'osTicket'.
