@@ -55,7 +55,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img width="456" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/75326dad-f58f-437b-b9a6-95dd4ad95d6f">
+<img width="353" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/75326dad-f58f-437b-b9a6-95dd4ad95d6f">
 </p>
 <p>
 4. Download and Install VC Redistributable- Download and install VC Redist from the installation files list.
@@ -106,7 +106,7 @@ Notice that some extensions are not enabled so return to IIS. Click on the 'osTi
 <p>
 <img width="552" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/1ce6cbe6-9228-4616-b992-67f556fd5833">
 </p>
-10. Rename and Update Permissions- Next, return to the 'File Explorer' window that holds the 'osTicket' folder. Open the folder and locate the folder named 'include'. Find the file named 'ost-sampleconfig.php' and rename it to 'ost-config.php'. Right-click the file to update its permissions. Follow the next string of steps: 'Security' tab > 'Advanced' button > 'Disable inheritance' button > 'Remove all inherited permission from this object' selection. Next string of steps: 'Add' button > 'Select a principal' button > type in 'Everyone' > 'Check names' button > 'OK' button > check 'Full control' box > 'OK' and 'Apply' changes.
+10. Rename and Assign Permissions- Return to the 'File Explorer' window that holds the 'osTicket' folder. Follow the path C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php. Rename the file 'ost-config.php'. Right-click on the file to update permissions. Follow the strong of actions: Properties > Advance > Disable inheritance > Remove all permissions > Add > Select a principle > Type 'Everyone' > Check Names > OK > Full Control > OK > Apply > OK.
 </p>
 <br />
 
