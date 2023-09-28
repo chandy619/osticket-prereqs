@@ -21,9 +21,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - PHP Manager for IIS
 - IIS URL Rewrite Module
 - VC Redistributable
-- HeidiSQL
-- MySQL
+- MySQL Server
 - osTicket
+- HeidiSQL
 - Please use this link of <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"> installation files </a> to try on your own.<br />
 
 <h2>Installation Steps</h2>
@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="648" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/40ba4631-55d2-485a-a8bb-cd64f6e43fd0"/>
 </p>
 <p>
-1. Install/ Enable IIS- Open the Control Panel from your Windows VM by right-clicking the Start menu. Search for 'Control Panel' and select 'Programs'. Click on 'Turn Windows features on or off'. Check box for the 'Internet Information Services' folder and expand it. Locate the folder labeled 'World Wide Web Services' and expand it. Expand the 'Application Development Features' folder and check the box for 'CGI'. Next, expand the folder labeled 'Common HTTP Features' and make sure each box under it is checked. When complete, select 'OK' for IIS to begin installing.
+1. Install/ Enable IIS- Open the Control Panel from your Windows VM by right-clicking the 'Start' menu. Search for 'Control Panel' and select 'Programs'. Click on 'Turn Windows features on or off'. Check box for the 'Internet Information Services' folder and expand it. Locate the folder labeled 'World Wide Web Services' and expand it. Expand the 'Application Development Features' folder and check the box for 'CGI'. Next, expand the folder labeled 'Common HTTP Features' and make sure each box under it is checked. When complete, select 'OK' for IIS to begin installing.
 </p>
 <br />
 
@@ -106,19 +106,29 @@ Notice that some extensions are not enabled so return to IIS. Click on the 'osTi
 <p>
 <img width="552" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/1ce6cbe6-9228-4616-b992-67f556fd5833">
 </p>
-10. Rename and Assign Permissions- Return to the 'File Explorer' window that holds the 'osTicket' folder. Follow the path C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php. Rename the file 'ost-config.php'. Right-click on the file to update permissions. Follow the strong of actions: Properties > Advance > Disable inheritance > Remove all permissions > Add > Select a principle > Type 'Everyone' > Check Names > OK > Full Control > OK > Apply > OK.
+9. Rename and Assign Permissions- Return to the 'File Explorer' window that holds the 'osTicket' folder. Follow the path C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php. Rename the file 'ost-config.php'. Right-click on the file to update permissions. Follow the strong of actions: Properties > Advance > Disable inheritance > Remove all permissions > Add > Select a principle > Type 'Everyone' > Check Names > OK > Full Control > OK > Apply > OK.
 </p>
 <br />
 
 <p>
-<img width="354" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/85eb14e4-b6d1-4e05-9dc8-7ec742f4bdc3">
-<img width="273" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/90ca8497-c241-4ed1-a23c-56519006e871">
+<img width="377" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/9e5c12d0-636d-404f-a832-65d4239ca89c">
+
 </p>
 10. Continue Setting up osTicket in Browser- Return to the osTicket Installer web browser and click 'Continue'. Fill out the necessary fields, i.e., Helpdesk Name, Default Email and Admin User information. (Remember to keep track of the username and password information for the next tutorial). For the remaining portion (Database Settings), you'll need to download and install the HiediSQL from the Installation Files.
 </p>
+<br/>
 
 <p>
 <img width="340" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/97fbcdde-773a-4da2-8f23-357c810467e5">
 <img width="460" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/fb4aced7-bdfc-4984-9639-3fae51d6f414">
 </p>
 11. Download and Install HeidiSQL- Go back to the list of Installation Files to download and install the HeidiSQL. Once its installed, login by using the username and password you entered when installing MySQL Server. To begin creating a new database, right-click over 'Unnamed' on the left-side of the window. Name the database 'osTicket'.
+</p>
+<br />
+
+</p>
+<img width="396" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/7b33b7f8-15c9-4933-a23a-e84d9d6bf441">
+<img width="407" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/d02e7333-d3f4-4014-95c5-cdbd6b54efee">
+</p>
+12. Complete osTIcket Installation in Browser- Return to your osTicket Installer webpage to fill-in the remaining 'Database Setting' fields. Click 'Install Now!' Once the installation complete, the webpage will should confirm if osTicket was successfully installed or not. Before continuing to use osTicket, there are a few housekeeping items to take care of. First, delete the 'setup' folder locate in C:\inetpub\wwwroot\osTicket. Lastly, return to C:\inetpub\wwwroot\osTicket\include/ost-config.php and updatee the file's permissions to 'read only' access.
+</p>
