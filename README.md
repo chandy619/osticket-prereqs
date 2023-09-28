@@ -89,8 +89,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img width="444" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/12cd8406-fde0-400b-a092-8f1864437fa6">
-<img width="401" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/5b455c5f-0331-428a-acb8-4fae02f40917">
+<img width="557" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/12cd8406-fde0-400b-a092-8f1864437fa6">
+<img width="413" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/5b455c5f-0331-428a-acb8-4fae02f40917">
 </p>
 <p>
 8. osTicket Configuration via IIS- Return to IIS. Begin by reloadinging the server by clicking the 'Restart' button in the top right corner. Now,  in the top left corner, follow the path: Sites > Default Web Site > osTicket. Back  on the right side of the IIS window, click on 'Browse *.80 (http)'. An osTicket Installer webpage will open via Microsoft Edge. 
