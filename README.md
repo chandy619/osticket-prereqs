@@ -106,14 +106,15 @@ Notice that some extensions are not enabled, so return to IIS. Click on the 'osT
 <p>
 <img width="552" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/1ce6cbe6-9228-4616-b992-67f556fd5833">
 </p>
+<p>
 9. Rename and Assign Permissions: Return to the 'File Explorer' window that holds the 'osTicket' folder. Follow the path C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php. Rename the file 'ost-config.php'. Right-click on the file to update permissions. Follow the string of actions: Properties > Advance > Disable inheritance > Remove all permissions > Add > Select a principle > Type 'Everyone' > Check Names > OK > Full Control > OK > Apply > OK.
 </p>
 <br />
 
 <p>
 <img width="377" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/9e5c12d0-636d-404f-a832-65d4239ca89c">
-
 </p>
+<p>
 10. Continue Setting up osTicket in Browser: Return to the osTicket Installer web browser and click 'Continue'. Fill out the necessary fields, i.e., Helpdesk Name, Default Email and Admin User information. Remember to keep track of the username and password information for the next tutorial. For the remaining portion (Database Settings), you'll need to download and install the HiediSQL.
 </p>
 <br/>
@@ -122,6 +123,7 @@ Notice that some extensions are not enabled, so return to IIS. Click on the 'osT
 <img width="340" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/97fbcdde-773a-4da2-8f23-357c810467e5">
 <img width="460" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/fb4aced7-bdfc-4984-9639-3fae51d6f414">
 </p>
+<p>
 11. Download and Install HeidiSQL: Go back to the list of Installation Files to download and install the HeidiSQL. Once its installed, login by using the username and password you entered when installing MySQL Server. To begin creating a new database, right-click over 'Unnamed' on the left-side of the window. Name the database 'osTicket'.
 </p>
 <br />
@@ -130,5 +132,6 @@ Notice that some extensions are not enabled, so return to IIS. Click on the 'osT
 <img width="396" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/7b33b7f8-15c9-4933-a23a-e84d9d6bf441">
 <img width="407" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/d02e7333-d3f4-4014-95c5-cdbd6b54efee">
 </p>
+<p>
 12. Complete osTIcket Installation in Browser: Return to your osTicket Installer webpage to fill-in the remaining 'Database Setting' fields. Click 'Install Now!' Once the installation is complete, the webpage will confirm if osTicket was successfully installed or not. Before continuing to use osTicket, there are a couple housekeeping items to take care of. First, delete the 'setup' folder locate in C:\inetpub\wwwroot\osTicket. Lastly, return to C:\inetpub\wwwroot\osTicket\include/ost-config.php and update the file's permissions to 'read only' access.
 </p>
