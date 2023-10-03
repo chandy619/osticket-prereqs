@@ -30,6 +30,7 @@ This lab outlines the prerequisites and installation of the open-source help des
 
 <p>
 <img width="648" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/40ba4631-55d2-485a-a8bb-cd64f6e43fd0"/>
+<img width="960" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/f82db133-902d-4742-ae41-8fff016e4acb">
 </p>
 <p>
 1. Install/ Enable IIS: Open the Control Panel from your Windows VM by clicking the Start menu. Search for 'Control Panel' and select 'Programs'. Click on 'Turn Windows features on or off'. Check the box for 'Internet Information Services' folder then click the '+' sign to expand it. Locate the folder labeled 'World Wide Web Services' and expand it. Next, expand the 'Application Development Features' folder and check the box for 'CGI'. Lastly, expand the folder labeled 'Common HTTP Features' and select the remaining boxes that are uncheck. When complete, select 'OK' for IIS to begin installing. * To check if you properly installed IIS, open a web browswer page and enter '127.0.0.1' into the url box. The screen should reflect a Windows Internet Information Services webpage.*
