@@ -37,8 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img width="342" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/2fdb7417-aeb0-4305-8c0f-a920644d89b0">
-<img width="356" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/6de6a7ff-2fda-49cd-a1ba-96d23a9c51ec">
+<img width="914" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/16b18754-1779-498b-a32f-6648f8b6e98b">
 </p>
 <p>
 2. Download and Install PHP Manager and the URL Rewrite Module: For the next steps, download and install PHP Manager and Rewrite Module from the Installation Files link provided in the List of Prerequisites section above. There are no extra steps needed; just use the default settings as you proceed with each installation. 
