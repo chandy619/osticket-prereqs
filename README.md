@@ -33,7 +33,7 @@ This lab outlines the prerequisites and installation of the open-source help des
 <img width="960" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/f82db133-902d-4742-ae41-8fff016e4acb">
 </p>
 <p>
-1. Install/ Enable IIS: Open the Control Panel from your Windows VM by clicking the Start menu. Search for 'Control Panel' and select 'Programs'. Click on 'Turn Windows features on or off'. Check the box for 'Internet Information Services' folder then click the '+' sign to expand it. Locate the folder labeled 'World Wide Web Services' and expand it. Next, expand the 'Application Development Features' folder and check the box for 'CGI'. Lastly, expand the folder labeled 'Common HTTP Features' and select the remaining boxes that are uncheck. When complete, select 'OK' for IIS to begin installing. * To check if you properly installed IIS, open a web browswer page and enter '127.0.0.1' into the url box. The screen should reflect a Windows Internet Information Services webpage.*
+1. Install/ Enable IIS: Open the Control Panel from your Windows VM by clicking the Start menu. Search for 'Control Panel' and select 'Programs'. Click on 'Turn Windows features on or off'. Check the box for 'Internet Information Services' folder then click the '+' sign to expand it. Locate the folder labeled 'World Wide Web Services' and expand it. Next, expand the 'Application Development Features' folder and check the box for 'CGI'. Lastly, expand the folder labeled 'Common HTTP Features' and select the remaining boxes that are unchecked. When complete, select 'OK' for IIS to begin installing. * To check if you properly installed IIS, open a web browswer page and enter '127.0.0.1' into the url box. The screen should reflect a Windows Internet Information Services webpage.*
 </p>
 <br />
 
@@ -93,14 +93,14 @@ This lab outlines the prerequisites and installation of the open-source help des
 <img width="960" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/4cd07a07-b635-4749-a060-9a26832d2441">
 </p>
 <p>
-8. osTicket Configuration via IIS: Return to IIS. Begin by reloading the server by clicking the green 'Restart' button again. Now, in the top left corner, follow the path: Sites > Default Web Site > osTicket. On the right-hand side of the IIS window, click on 'Browse *.80 (http)'. An osTicket Installer webpage will open via Microsoft Edge or whereever web browser you prefer it to open in. 
+8. osTicket Configuration via IIS: Return to IIS. Begin by reloading the server by clicking the green 'Restart' button again. Now, in the top left corner, follow the path: Sites > Default Web Site > osTicket. On the right-hand side of the IIS window, click on 'Browse *.80 (http)'. An osTicket Installer webpage will open via Microsoft Edge or whichever web browser you prefer it to open in. 
 </p>
 <p>
 <img width="960" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/f86fbc1d-896c-469e-9fab-8a2ea91127a9">
 <img width="960" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/8eaa1173-a5cb-41d9-bea9-cd40c548d8b3">
 </p>
 <p>
-Notice that some extensions are not enabled, so return to IIS. Click on the 'osTicket' folder located on the left-hand side and double-click on PHP Manager. Click on 'Enable or disable an extension'. You'll find a list of PHP Extensions. Click on each of the following:'php_imap.dll', 'php_intl.dll', and 'php_opache.dll'. and click 'Enable' in the top right corner. Lastly, return to the browser page of the osTicket Installer and refresh the page.
+Notice that some extensions are not enabled, so return to IIS. Click on the 'osTicket' folder located on the left-hand side and double-click on PHP Manager. Click on 'Enable or disable an extension' where you'll find a list of PHP Extensions. Click on each of the following:'php_imap.dll', 'php_intl.dll', and 'php_opache.dll'. and click 'Enable' in the top right corner. Lastly, return to the browser page of the osTicket Installer and refresh the page.
 </p>
 <br />
 
@@ -126,7 +126,7 @@ Notice that some extensions are not enabled, so return to IIS. Click on the 'osT
 <img width="960" alt="image" src="https://github.com/chandy619/osticket-prereqs/assets/144288806/3b71fc00-3529-4756-a061-cb7f58bec0cd">
 </p>
 <p>
-11. Download and Install HeidiSQL: Go back to the list of Installation Files to download and install the HeidiSQL. Once its installed, click the 'New' button and login by using the username 'root' and the password you created when installing MySQL Server. To begin creating a new database, right-click over 'Unnamed' on the left-side of the window > select 'Create new' > select 'database'. Name the database 'osTicket'.
+11. Download and Install HeidiSQL: Go back to the list of Installation Files to download and install the HeidiSQL. Once its installed, click the 'New' button and login by using the username 'root' and the password you created when installing MySQL Server. To begin creating a new database, right-click over 'Unnamed' on the left side of the window > select 'Create new' > select 'database'. Name the database 'osTicket'.
 </p>
 <br />
 
